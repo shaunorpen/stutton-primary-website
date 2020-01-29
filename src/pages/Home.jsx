@@ -1,9 +1,13 @@
 import React from 'react'
 
+import img1 from '../images/Stutton-6-Edited-300x300.jpg'
+import img2 from '../images/Stutton-48-Edited-300x300.jpg'
+import img3 from '../images/Stutton-14-Edited-300x300.jpg'
+
 function Home () {
     return (
         <div>
-            <div className="bg-green-200 px-48 py-5">
+            <div className="bg-green-200 px-48 py-12">
                 <div className="text-xl italic font-semibold">Welcome to</div>
                 <h1 className="text-5xl font-bold text-center leading-tight">Stutton CEVC Primary School</h1>
                 <div className="text-xl italic text-right font-semibold">an Asset Education School</div>
@@ -20,40 +24,35 @@ function Home () {
                             Please make an appointment through the school office.
                         </p>
                     </div>
-                    <div className="shadow-lg rounded-lg px-4 py-2 bg-gray-100">
+                    <div className="shadow-lg rounded-lg px-4 py-2 bg-gray-100 pb-4">
                         <h2 className="text-2xl font-bold mb-3">Latest News</h2>
-                        <div className="flex">
-                            <div className="shadow-outline mr-3 mb-3 p-4">
-                                <h3 className="font-bold text-lg">Title</h3>
-                                <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nihil aspernatur, suscipit ducimus corporis eos deserunt accusamus provident perferendis autem!</p>
-                                <a href="#" className="bg-blue-500 hover:bg-blue-400 border rounded-lg px-4 py-1 mt-5 text-white text-sm text-bold inline-block">Read more...</a>
+                        <div className="flex flex-wrap justify-between">
+                            <div className="shadow rounded-lg w-64">
+                                <div className="h-56 bg-cover rounded-t-lg" style={{ backgroundImage: `url(${img1})`}} />
+                                <div className="p-3">
+                                    <div>
+                                        <h3 className="font-bold text-lg">Title</h3>
+                                        <p className="truncate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, debitis?</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div className="shadow-outline mr-3 mb-3 p-4">
-                                <h3 className="font-bold text-lg">Title</h3>
-                                <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nihil aspernatur, suscipit ducimus corporis eos deserunt accusamus provident perferendis autem!</p>
-                                <a href="#" className="bg-blue-500 hover:bg-blue-400 border rounded-lg px-4 py-1 mt-5 text-white text-sm text-bold inline-block">Read more...</a>
+                            <div className="shadow rounded-lg w-64">
+                                <div className="h-56 bg-cover rounded-t-lg" style={{ backgroundImage: `url(${img2})`}} />
+                                <div className="p-3">
+                                    <div>
+                                        <h3 className="font-bold text-lg">Title</h3>
+                                        <p className="truncate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, debitis?</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div className="shadow-outline mr-3 mb-3 p-4">
-                                <h3 className="font-bold text-lg">Title</h3>
-                                <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nihil aspernatur, suscipit ducimus corporis eos deserunt accusamus provident perferendis autem!</p>
-                                <a href="#" className="bg-blue-500 hover:bg-blue-400 border rounded-lg px-4 py-1 mt-5 text-white text-sm text-bold inline-block">Read more...</a>
-                            </div>
-                        </div>
-                        <div className="flex">
-                            <div className="shadow-outline mr-3 mb-3 p-4">
-                                <h3 className="font-bold text-lg">Title</h3>
-                                <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nihil aspernatur, suscipit ducimus corporis eos deserunt accusamus provident perferendis autem!</p>
-                                <a href="#" className="bg-blue-500 hover:bg-blue-400 border rounded-lg px-4 py-1 mt-5 text-white text-sm text-bold inline-block">Read more...</a>
-                            </div>
-                            <div className="shadow-outline mr-3 mb-3 p-4">
-                                <h3 className="font-bold text-lg">Title</h3>
-                                <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nihil aspernatur, suscipit ducimus corporis eos deserunt accusamus provident perferendis autem!</p>
-                                <a href="#" className="bg-blue-500 hover:bg-blue-400 border rounded-lg px-4 py-1 mt-5 text-white text-sm text-bold inline-block">Read more...</a>
-                            </div>
-                            <div className="shadow-outline mr-3 mb-3 p-4">
-                                <h3 className="font-bold text-lg">Title</h3>
-                                <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nihil aspernatur, suscipit ducimus corporis eos deserunt accusamus provident perferendis autem!</p>
-                                <a href="#" className="bg-blue-500 hover:bg-blue-400 border rounded-lg px-4 py-1 mt-5 text-white text-sm text-bold inline-block">Read more...</a>
+                            <div className="shadow rounded-lg w-64">
+                                <div className="h-56 bg-cover rounded-t-lg" style={{ backgroundImage: `url(${img3})`}} />
+                                <div className="p-3">
+                                    <div>
+                                        <h3 className="font-bold text-lg">Title</h3>
+                                        <p className="truncate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, debitis?</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

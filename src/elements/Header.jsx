@@ -9,14 +9,14 @@ function Header () {
                 <img src={logo} alt="Asset Education Logo" />
             </div>
             <div>
-                <ul className="flex">
-                    <li className="pl-5">Home</li>
-                    <li className="pl-5">Our School</li>
-                    <li className="pl-5">Teaching and Learning</li>
-                    <li className="pl-5">How we are performing</li>
-                    <li className="pl-5">Useful information</li>
-                    <li className="pl-5">News</li>
-                    <li className="px-4">Contact us</li>
+                <ul className="flex text-blue-600">
+                    <li className="ml-5">Home</li>
+                    <li className="ml-5">Our School</li>
+                    <li className="ml-5">Teaching and Learning</li>
+                    <li className="ml-5">How we are performing</li>
+                    <li className="ml-5">Useful information</li>
+                    <li className="ml-5">News</li>
+                    <li className="mx-4">Contact us</li>
                 </ul>
             </div>
         </div>
