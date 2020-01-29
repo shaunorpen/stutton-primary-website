@@ -4,7 +4,7 @@ import logo from '../images/Asset_Logo.png';
 
 function Header () {
     return (
-        <div className="flex items-center justify-between bg-green-300 px-3">
+        <div className="flex items-center justify-between bg-green-300 p-3">
             <div>
                 <img src={logo} alt="Asset Education Logo" />
             </div>
