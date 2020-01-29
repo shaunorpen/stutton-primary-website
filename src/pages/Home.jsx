@@ -3,6 +3,9 @@ import React from 'react'
 import img1 from '../images/Stutton-6-Edited-300x300.jpg'
 import img2 from '../images/Stutton-48-Edited-300x300.jpg'
 import img3 from '../images/Stutton-14-Edited-300x300.jpg'
+import img4 from '../images/Stutton-42-Edited-300x300.jpg'
+import img5 from '../images/Stutton-64-Edited-300x300.jpg'
+import img6 from '../images/Stutton-69-Edited-300x300.jpg'
 
 function Home () {
     return (
@@ -27,7 +30,7 @@ function Home () {
                     <div className="shadow-lg rounded-lg px-4 py-2 bg-gray-100 pb-4">
                         <h2 className="text-2xl font-bold mb-3">Latest News</h2>
                         <div className="flex flex-wrap justify-between">
-                            <div className="shadow rounded-lg w-64">
+                            <div className="shadow rounded-lg w-64 mb-4">
                                 <div className="h-56 bg-cover rounded-t-lg" style={{ backgroundImage: `url(${img1})`}} />
                                 <div className="p-3">
                                     <div>
@@ -36,7 +39,7 @@ function Home () {
                                     </div>
                                 </div>
                             </div>
-                            <div className="shadow rounded-lg w-64">
+                            <div className="shadow rounded-lg w-64 mb-4">
                                 <div className="h-56 bg-cover rounded-t-lg" style={{ backgroundImage: `url(${img2})`}} />
                                 <div className="p-3">
                                     <div>
@@ -45,8 +48,35 @@ function Home () {
                                     </div>
                                 </div>
                             </div>
-                            <div className="shadow rounded-lg w-64">
+                            <div className="shadow rounded-lg w-64 mb-4">
                                 <div className="h-56 bg-cover rounded-t-lg" style={{ backgroundImage: `url(${img3})`}} />
+                                <div className="p-3">
+                                    <div>
+                                        <h3 className="font-bold text-lg">Title</h3>
+                                        <p className="truncate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, debitis?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="shadow rounded-lg w-64">
+                                <div className="h-56 bg-cover rounded-t-lg" style={{ backgroundImage: `url(${img4})`}} />
+                                <div className="p-3">
+                                    <div>
+                                        <h3 className="font-bold text-lg">Title</h3>
+                                        <p className="truncate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, debitis?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="shadow rounded-lg w-64">
+                                <div className="h-56 bg-cover rounded-t-lg" style={{ backgroundImage: `url(${img5})`}} />
+                                <div className="p-3">
+                                    <div>
+                                        <h3 className="font-bold text-lg">Title</h3>
+                                        <p className="truncate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, debitis?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="shadow rounded-lg w-64">
+                                <div className="h-56 bg-cover rounded-t-lg" style={{ backgroundImage: `url(${img6})`}} />
                                 <div className="p-3">
                                     <div>
                                         <h3 className="font-bold text-lg">Title</h3>
