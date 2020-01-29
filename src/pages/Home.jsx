@@ -67,13 +67,13 @@ function Home () {
                     </div>
                     <div className="shadow-lg rounded-lg px-4 py-2 bg-gray-100 mb-4">
                         <h2 className="text-2xl font-bold mb-3">Upcoming Events</h2>
-                        <p className="text-center">
+                        <p className="mb-3">
                             Google Calendar
                         </p>
                     </div>
                     <div className="shadow-lg rounded-lg px-4 py-2 bg-gray-100">
                         <h2 className="text-2xl font-bold mb-3">Useful Links</h2>
-                        <ul className="mb-2">
+                        <ul className="mb-3">
                             <li>Useful Link 1</li>
                             <li>Useful Link 2</li>
                             <li>Useful Link 3</li>
