@@ -19,7 +19,7 @@ function Home () {
                 <div className="w-3/4 p-4">
                     <div className="shadow-lg rounded-lg px-4 py-2 bg-gray-100 mb-4">
                         <h2 className="text-2xl font-bold mb-3">Welcome</h2>
-                        <p className="leading-relaxed">
+                        <p className="leading-relaxed mb-4">
                             Stutton Primary is a mixed infant and junior academy in Stutton, Suffolk. 
                             Our staff are committed to providing the best education for all our pupils. 
                             Every child matters to us, every lesson, every day. 
