@@ -13,7 +13,7 @@ function Home () {
                     <div className="shadow-lg rounded-lg px-4 py-2 bg-gray-100 mb-4">
                         <h2 className="text-2xl font-bold mb-3">Welcome</h2>
                         <p className="leading-relaxed">
-                            Stutton CEVC Primary School is a mixed infant and junior academy in Stutton, Suffolk. 
+                            Stutton Primary is a mixed infant and junior academy in Stutton, Suffolk. 
                             Our staff are committed to providing the best education for all our pupils. 
                             Every child matters to us, every lesson, every day. 
                             Visits and tours are warmly welcomed anytime during the school year. 
@@ -60,6 +60,12 @@ function Home () {
                 </div>
                 <div className="w-1/4 py-4 pr-4">
                     <div className="shadow-lg rounded-lg px-4 py-2 bg-gray-100 mb-4">
+                        <h2 className="text-2xl font-bold mb-3">Contact Us</h2>
+                        <p className="mb-3">01473 328531</p>
+                        <p className="mb-3">admin@stuttonprimary.co.uk</p>
+                        <p className="mb-3">Holbrook Road<br/>Stutton<br/>Suffolk<br/>IP9 2RY</p>
+                    </div>
+                    <div className="shadow-lg rounded-lg px-4 py-2 bg-gray-100 mb-4">
                         <h2 className="text-2xl font-bold mb-3">Upcoming Events</h2>
                         <p className="text-center">
                             Google Calendar
@@ -67,7 +73,7 @@ function Home () {
                     </div>
                     <div className="shadow-lg rounded-lg px-4 py-2 bg-gray-100">
                         <h2 className="text-2xl font-bold mb-3">Useful Links</h2>
-                        <ul>
+                        <ul className="mb-2">
                             <li>Useful Link 1</li>
                             <li>Useful Link 2</li>
                             <li>Useful Link 3</li>
