@@ -10639,11 +10639,6 @@ video {
   z-index: auto;
 }
 
-p {
-  margin-bottom: 1rem;
-  font-size: 1.125rem
-}
-
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
