@@ -30,57 +30,45 @@ function Home () {
                     <div className="shadow-lg rounded-lg px-4 py-2 bg-gray-100 pb-4">
                         <h2 className="text-2xl font-bold mb-3">Latest News</h2>
                         <div className="flex flex-wrap justify-between">
-                            <div className="shadow rounded-lg w-64 mb-4">
+                            <div className="shadow-lg rounded-lg w-64 mb-4">
                                 <div className="h-56 bg-cover rounded-t-lg" style={{ backgroundImage: `url(${img1})`}} />
-                                <div className="p-3">
+                                <div className="p-3 flex-grow flex flex-col">
                                     <div>
-                                        <h3 className="font-bold text-lg">Title</h3>
-                                        <p className="truncate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, debitis?</p>
+                                        <div class="mb-3">
+                                            <h3 className="font-bold text-lg">Title</h3>
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, debitis?</p>
+                                        </div>
+                                        <div class="flex justify-end">
+                                            <button class="bg-blue-400 mb-3 rounded px-3 py-1 uppercase tracking-wide text-white font-bold hover:bg-blue-600 self-end">Read More</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="shadow rounded-lg w-64 mb-4">
+                            <div className="shadow-lg rounded-lg w-64 mb-4">
                                 <div className="h-56 bg-cover rounded-t-lg" style={{ backgroundImage: `url(${img2})`}} />
-                                <div className="p-3">
+                                <div className="p-3 flex flex-col">
                                     <div>
-                                        <h3 className="font-bold text-lg">Title</h3>
-                                        <p className="truncate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, debitis?</p>
+                                        <div class="mb-3">
+                                            <h3 className="font-bold text-lg">Title</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta id sit voluptatum voluptates quisquam quos nobis, labore repudiandae iste autem.</p>
+                                        </div>
+                                        <div class="flex justify-end">
+                                            <button class="bg-blue-400 mb-3 rounded px-3 py-1 uppercase tracking-wide text-white font-bold hover:bg-blue-600 self-end">Read More</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="shadow rounded-lg w-64 mb-4">
+                            <div className="shadow-lg rounded-lg w-64 mb-4">
                                 <div className="h-56 bg-cover rounded-t-lg" style={{ backgroundImage: `url(${img3})`}} />
-                                <div className="p-3">
+                                <div className="p-3 flex flex-col">
                                     <div>
-                                        <h3 className="font-bold text-lg">Title</h3>
-                                        <p className="truncate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, debitis?</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="shadow rounded-lg w-64">
-                                <div className="h-56 bg-cover rounded-t-lg" style={{ backgroundImage: `url(${img4})`}} />
-                                <div className="p-3">
-                                    <div>
-                                        <h3 className="font-bold text-lg">Title</h3>
-                                        <p className="truncate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, debitis?</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="shadow rounded-lg w-64">
-                                <div className="h-56 bg-cover rounded-t-lg" style={{ backgroundImage: `url(${img5})`}} />
-                                <div className="p-3">
-                                    <div>
-                                        <h3 className="font-bold text-lg">Title</h3>
-                                        <p className="truncate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, debitis?</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="shadow rounded-lg w-64">
-                                <div className="h-56 bg-cover rounded-t-lg" style={{ backgroundImage: `url(${img6})`}} />
-                                <div className="p-3">
-                                    <div>
-                                        <h3 className="font-bold text-lg">Title</h3>
-                                        <p className="truncate">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, debitis?</p>
+                                        <div class="mb-3">
+                                            <h3 className="font-bold text-lg">Title</h3>
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, debitis?</p>
+                                        </div>
+                                        <div class="flex justify-end">
+                                            <button class="bg-blue-400 mb-3 rounded px-3 py-1 uppercase tracking-wide text-white font-bold hover:bg-blue-600 self-end">Read More</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -95,20 +83,15 @@ function Home () {
                         <p className="mb-3">Holbrook Road<br/>Stutton<br/>Suffolk<br/>IP9 2RY</p>
                     </div>
                     <div className="shadow-lg rounded-lg px-4 py-2 bg-gray-100 mb-4">
-                        <h2 className="text-2xl font-bold mb-3">Upcoming Events</h2>
+                        <h2 className="text-2xl font-bold mb-3">Calendar</h2>
                         <p className="mb-3">
                             Google Calendar
                         </p>
                     </div>
-                    <div className="shadow-lg rounded-lg px-4 py-2 bg-gray-100">
-                        <h2 className="text-2xl font-bold mb-3">Useful Links</h2>
-                        <ul className="mb-3">
-                            <li>Useful Link 1</li>
-                            <li>Useful Link 2</li>
-                            <li>Useful Link 3</li>
-                            <li>Useful Link 4</li>
-                            <li>Useful Link 5</li>
-                        </ul>
+                    <div className="shadow-lg rounded-lg px-4 py-2 bg-gray-100 flex flex-col items-start">
+                        <h2 className="text-2xl font-bold mb-3">Newsletter</h2>
+                        <input class="w-full px-2 py-1 rounded mb-3" placeholder="example@email.com"/>
+                        <button class="bg-blue-400 mb-3 rounded px-3 py-2 uppercase tracking-wide text-white font-bold hover:bg-blue-600 self-end">Subscribe</button>
                     </div>
                 </div>
             </div>
