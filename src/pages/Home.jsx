@@ -32,7 +32,7 @@ function Home () {
                         <div className="flex -mx-3">
                             <div className="shadow w-1/3 flex flex-col justify-between mx-3 rounded-lg">
                                 <div>
-                                    <div style={{ backgroundImage: `url(${img1})`}} className="h-48 bg-cover rounded-t-lg" />
+                                    <div style={{ backgroundImage: `url(${img1})`}} className="h-64 bg-cover rounded-t-lg" />
                                     <div className="p-3">
                                         <h3 className="font-bold text-lg tracking-wide">Title</h3>
                                         <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, maxime.</div>
@@ -42,7 +42,7 @@ function Home () {
                             </div>
                             <div className="shadow w-1/3 flex flex-col justify-between mx-3 rounded-lg">
                                 <div>
-                                    <div style={{ backgroundImage: `url(${img6})`}} className="h-48 bg-cover rounded-t-lg" />
+                                    <div style={{ backgroundImage: `url(${img6})`}} className="h-64 bg-cover rounded-t-lg" />
                                     <div className="p-3">
                                         <h3 className="font-bold text-lg tracking-wide">Title</h3>
                                         <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, repellat quia unde odit repellendus fugiat nemo harum deleniti consequuntur modi.</div>
@@ -52,7 +52,7 @@ function Home () {
                             </div>
                             <div className="shadow w-1/3 flex flex-col justify-between mx-3 rounded-lg">
                                 <div>
-                                    <div style={{ backgroundImage: `url(${img3})`}} className="h-48 bg-cover rounded-t-lg" />
+                                    <div style={{ backgroundImage: `url(${img3})`}} className="h-64 bg-cover rounded-t-lg" />
                                     <div className="p-3">
                                         <h3 className="font-bold text-lg tracking-wide">Title</h3>
                                         <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta ea qui nulla facilis, iusto fugiat iste sequi veritatis accusamus sint dolores fugit assumenda at unde rerum, illum quisquam accusantium quia!</div>
@@ -67,7 +67,7 @@ function Home () {
                     <div className="shadow-lg rounded-lg px-4 py-2 bg-gray-100 mb-4">
                         <h2 className="text-2xl font-bold mb-3">Contact Us</h2>
                         <p className="mb-3">01473 328531</p>
-                        <p className="mb-3">admin@stuttonprimary.co.uk</p>
+                        <p className="mb-3 text-blue-600"><a href="mailto:admin@stuttonprimary.co.uk">admin@stuttonprimary.co.uk</a></p>
                         <p className="mb-3">Holbrook Road<br/>Stutton<br/>Suffolk<br/>IP9 2RY</p>
                     </div>
                     <div className="shadow-lg rounded-lg px-4 py-2 bg-gray-100 mb-4">
