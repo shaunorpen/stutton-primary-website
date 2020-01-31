@@ -38,7 +38,7 @@ function Home () {
                                         <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, maxime.</div>
                                     </div>
                                 </div>
-                                <button className="self-end bg-blue-400 px-2 py-1 text-white uppercase tracking-wide rounded mb-3 mr-3 text-sm">Read More</button>
+                                <button className="self-end bg-blue-400 px-2 py-1 text-white uppercase tracking-wide rounded mb-3 mr-3 text-sm hover:bg-blue-600">Read More</button>
                             </div>
                             <div className="shadow w-1/3 flex flex-col justify-between mx-3 rounded-lg">
                                 <div>
@@ -48,7 +48,7 @@ function Home () {
                                         <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, repellat quia unde odit repellendus fugiat nemo harum deleniti consequuntur modi.</div>
                                     </div>
                                 </div>
-                                <button className="self-end bg-blue-400 px-2 py-1 text-white uppercase tracking-wide rounded mb-3 mr-3 text-sm">Read More</button>
+                                <button className="self-end bg-blue-400 px-2 py-1 text-white uppercase tracking-wide rounded mb-3 mr-3 text-sm hover:bg-blue-600">Read More</button>
                             </div>
                             <div className="shadow w-1/3 flex flex-col justify-between mx-3 rounded-lg">
                                 <div>
@@ -58,7 +58,7 @@ function Home () {
                                         <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta ea qui nulla facilis, iusto fugiat iste sequi veritatis accusamus sint dolores fugit assumenda at unde rerum, illum quisquam accusantium quia!</div>
                                     </div>
                                 </div>
-                                <button className="self-end bg-blue-400 px-2 py-1 text-white uppercase tracking-wide rounded mb-3 mr-3 text-sm">Read More</button>
+                                <button className="self-end bg-blue-400 px-2 py-1 text-white uppercase tracking-wide rounded mb-3 mr-3 text-sm hover:bg-blue-600">Read More</button>
                             </div>
                         </div>
                     </div>

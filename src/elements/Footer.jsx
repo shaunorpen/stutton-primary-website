@@ -18,8 +18,11 @@ function Footer () {
                <div className="h-24 w-24 bg-contain bg-center bg-no-repeat" style={{ backgroundImage: `url(${img5})`}} />
                <div className="h-24 w-24 bg-contain bg-center bg-no-repeat" style={{ backgroundImage: `url(${img6})`}} />
             </div>
-            <div>
+            <div className="mb-3">
                 Copyright © Stutton Primary School 2020
+            </div>
+            <div className="text-sm">
+                Website designed and maintained by Shaun Orpen
             </div>
         </div>
     )
