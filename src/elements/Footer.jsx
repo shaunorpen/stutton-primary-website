@@ -21,8 +21,8 @@ function Footer () {
             <div className="mb-3">
                 Copyright © Stutton Primary School 2020
             </div>
-            <div className="text-sm">
-                Website designed and maintained by Shaun Orpen
+            <div>
+                Website built and maintained by Shaun Orpen
             </div>
         </div>
     )
