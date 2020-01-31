@@ -29,48 +29,36 @@ function Home () {
                     </div>
                     <div className="shadow-lg rounded-lg px-4 py-2 bg-gray-100 pb-4">
                         <h2 className="text-2xl font-bold mb-3">Latest News</h2>
-                        <div className="flex flex-wrap justify-between">
-                            <div className="shadow-lg rounded-lg w-64 mb-4">
-                                <div className="h-56 bg-cover rounded-t-lg" style={{ backgroundImage: `url(${img1})`}} />
-                                <div className="p-3 flex-grow flex flex-col">
-                                    <div>
-                                        <div class="mb-3">
-                                            <h3 className="font-bold text-lg">Title</h3>
-                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, debitis?</p>
-                                        </div>
-                                        <div class="flex justify-end">
-                                            <button class="bg-blue-400 mb-3 rounded px-3 py-1 uppercase tracking-wide text-white font-bold hover:bg-blue-600 self-end">Read More</button>
-                                        </div>
+                        <div className="flex -mx-3">
+                            <div className="shadow w-1/3 flex flex-col justify-between mx-3 rounded-lg">
+                                <div>
+                                    <div style={{ backgroundImage: `url(${img1})`}} className="h-48 bg-cover rounded-t-lg" />
+                                    <div className="p-3">
+                                        <h3 className="font-bold text-lg tracking-wide">Title</h3>
+                                        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, maxime.</div>
                                     </div>
                                 </div>
+                                <button className="self-end bg-blue-400 px-2 py-1 text-white uppercase tracking-wide rounded mb-3 mr-3 text-sm">Read More</button>
                             </div>
-                            <div className="shadow-lg rounded-lg w-64 mb-4">
-                                <div className="h-56 bg-cover rounded-t-lg" style={{ backgroundImage: `url(${img2})`}} />
-                                <div className="p-3 flex flex-col">
-                                    <div>
-                                        <div class="mb-3">
-                                            <h3 className="font-bold text-lg">Title</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta id sit voluptatum voluptates quisquam quos nobis, labore repudiandae iste autem.</p>
-                                        </div>
-                                        <div class="flex justify-end">
-                                            <button class="bg-blue-400 mb-3 rounded px-3 py-1 uppercase tracking-wide text-white font-bold hover:bg-blue-600 self-end">Read More</button>
-                                        </div>
+                            <div className="shadow w-1/3 flex flex-col justify-between mx-3 rounded-lg">
+                                <div>
+                                    <div style={{ backgroundImage: `url(${img6})`}} className="h-48 bg-cover rounded-t-lg" />
+                                    <div className="p-3">
+                                        <h3 className="font-bold text-lg tracking-wide">Title</h3>
+                                        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, repellat quia unde odit repellendus fugiat nemo harum deleniti consequuntur modi.</div>
                                     </div>
                                 </div>
+                                <button className="self-end bg-blue-400 px-2 py-1 text-white uppercase tracking-wide rounded mb-3 mr-3 text-sm">Read More</button>
                             </div>
-                            <div className="shadow-lg rounded-lg w-64 mb-4">
-                                <div className="h-56 bg-cover rounded-t-lg" style={{ backgroundImage: `url(${img3})`}} />
-                                <div className="p-3 flex flex-col">
-                                    <div>
-                                        <div class="mb-3">
-                                            <h3 className="font-bold text-lg">Title</h3>
-                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, debitis?</p>
-                                        </div>
-                                        <div class="flex justify-end">
-                                            <button class="bg-blue-400 mb-3 rounded px-3 py-1 uppercase tracking-wide text-white font-bold hover:bg-blue-600 self-end">Read More</button>
-                                        </div>
+                            <div className="shadow w-1/3 flex flex-col justify-between mx-3 rounded-lg">
+                                <div>
+                                    <div style={{ backgroundImage: `url(${img3})`}} className="h-48 bg-cover rounded-t-lg" />
+                                    <div className="p-3">
+                                        <h3 className="font-bold text-lg tracking-wide">Title</h3>
+                                        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta ea qui nulla facilis, iusto fugiat iste sequi veritatis accusamus sint dolores fugit assumenda at unde rerum, illum quisquam accusantium quia!</div>
                                     </div>
                                 </div>
+                                <button className="self-end bg-blue-400 px-2 py-1 text-white uppercase tracking-wide rounded mb-3 mr-3 text-sm">Read More</button>
                             </div>
                         </div>
                     </div>
