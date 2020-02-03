@@ -82,7 +82,7 @@ function Home () {
                         </div>
                     </div>
                 </div>
-                <div className="w-full lg:w-64 lg:ml-4">
+                <div className="w-full lg:w-1/3 lg:ml-4">
                     <div className="shadow-lg rounded-lg p-4 bg-gray-100 mb-4">
                         <h2 className="text-2xl font-bold mb-3">Contact Us</h2>
                         <p className="mb-3">01473 328531</p>
