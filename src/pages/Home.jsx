@@ -70,7 +70,7 @@ function Home () {
                                     <div className="flex flex-col justify-between w-56 flex-grow m-2 shadow-lg p-2 rounded">
                                         <div>
                                             <div>
-                                                <img className="w-full" src={article.img} alt="Photo of children at school"/>
+                                                <img className="w-full rounded" src={article.img} alt="Photo of children at school"/>
                                             </div>
                                             <div className="text-lg font-bold my-2">{article.title}</div>
                                             <div className="mb-2">{article.subTitle}</div>
