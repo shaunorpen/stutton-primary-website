@@ -7,6 +7,39 @@ import img4 from '../images/Stutton-42-Edited-300x300.jpg'
 import img5 from '../images/Stutton-64-Edited-300x300.jpg'
 import img6 from '../images/Stutton-69-Edited-300x300.jpg'
 
+const latestNews = [
+    {
+        title: 'Title One',
+        subTitle: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, aperiam.',
+        img: img1,
+    },
+    {
+        title: 'Title Two',
+        subTitle: 'Lorem ipsum dolor sit amet.',
+        img: img2,
+    },
+    {
+        title: 'Title Three',
+        subTitle: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem, ea non ipsam hic fugiat!',
+        img: img3,
+    },
+    {
+        title: 'Title Four',
+        subTitle: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error incidunt in dolore ex corporis eos accusamus itaque dolor eum id!',
+        img: img4,
+    },
+    {
+        title: 'Title Five',
+        subTitle: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
+        img: img5,
+    },
+    {
+        title: 'Title Six',
+        subTitle: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus beatae neque voluptatum?',
+        img: img6,
+    },
+]
+
 function Home () {
     return (
         <div>
@@ -18,7 +51,7 @@ function Home () {
                 </div>
             </div>
             <div className="bg-green-300 flex flex-col lg:flex-row p-4">
-                <div className="w-full lg:w-3/4">
+                <div className="w-full">
                     <div className="shadow-lg rounded-lg p-4 bg-gray-100 mb-4">
                         <h2 className="text-2xl font-bold mb-3">Welcome</h2>
                         <p className="leading-relaxed mb-4">
@@ -31,41 +64,25 @@ function Home () {
                     </div>
                     <div className="shadow-lg rounded-lg p-4 bg-gray-100 mb-4">
                         <h2 className="text-2xl font-bold mb-3">Latest News</h2>
-                        <div className="flex flex-col lg:flex-row -mx-3">
-                            <div className="shadow w-auto lg:w-1/3 flex flex-col justify-between mx-3 rounded-lg">
-                                <div>
-                                    <div style={{ backgroundImage: `url(${img1})`}} className="h-64 bg-cover rounded-t-lg" />
-                                    <div className="p-3">
-                                        <h3 className="font-bold text-lg tracking-wide">Title</h3>
-                                        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, maxime.</div>
+                        <div className="flex flex-wrap -m-2">
+                            { latestNews.map(article => {
+                                return (
+                                    <div className="flex flex-col justify-between w-56 flex-grow m-2 shadow-lg p-2 rounded">
+                                        <div>
+                                            <div>
+                                                <img className="w-full" src={article.img} alt="Photo of children at school"/>
+                                            </div>
+                                            <div className="text-lg font-bold my-2">{article.title}</div>
+                                            <div className="mb-2">{article.subTitle}</div>
+                                        </div>
+                                        <div className="bg-blue-400 text-sm uppercase px-3 py-1 text-white rounded self-end">Read More</div>
                                     </div>
-                                </div>
-                                <button className="self-end bg-blue-400 px-2 py-1 text-white uppercase tracking-wide rounded mb-3 mr-3 text-sm hover:bg-blue-600">Read More</button>
-                            </div>
-                            <div className="shadow w-auto lg:w-1/3 flex flex-col justify-between mx-3 rounded-lg">
-                                <div>
-                                    <div style={{ backgroundImage: `url(${img6})`}} className="h-64 bg-cover rounded-t-lg" />
-                                    <div className="p-3">
-                                        <h3 className="font-bold text-lg tracking-wide">Title</h3>
-                                        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, repellat quia unde odit repellendus fugiat nemo harum deleniti consequuntur modi.</div>
-                                    </div>
-                                </div>
-                                <button className="self-end bg-blue-400 px-2 py-1 text-white uppercase tracking-wide rounded mb-3 mr-3 text-sm hover:bg-blue-600">Read More</button>
-                            </div>
-                            <div className="shadow w-auto lg:w-1/3 flex flex-col justify-between mx-3 rounded-lg">
-                                <div>
-                                    <div style={{ backgroundImage: `url(${img3})`}} className="h-64 bg-cover rounded-t-lg" />
-                                    <div className="p-3">
-                                        <h3 className="font-bold text-lg tracking-wide">Title</h3>
-                                        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta ea qui nulla facilis, iusto fugiat iste sequi veritatis accusamus sint dolores fugit assumenda at unde rerum, illum quisquam accusantium quia!</div>
-                                    </div>
-                                </div>
-                                <button className="self-end bg-blue-400 px-2 py-1 text-white uppercase tracking-wide rounded mb-3 mr-3 text-sm hover:bg-blue-600">Read More</button>
-                            </div>
+                                )
+                            })}
                         </div>
                     </div>
                 </div>
-                <div className="w-full lg:w-1/4 ml-4">
+                <div className="w-64 lg:ml-4">
                     <div className="shadow-lg rounded-lg p-4 bg-gray-100 mb-4">
                         <h2 className="text-2xl font-bold mb-3">Contact Us</h2>
                         <p className="mb-3">01473 328531</p>
