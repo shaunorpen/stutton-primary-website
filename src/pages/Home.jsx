@@ -43,11 +43,11 @@ const latestNews = [
 function Home () {
     return (
         <div>
-            <div className="bg-green-200 p-12 flex justify-center items-center">
+            <div className="bg-green-200 lg:p-12 p-6 flex justify-center items-center">
                 <div>
-                    <div className="text-xl italic font-semibold">Welcome to</div>
-                    <h1 className="text-5xl font-bold text-center leading-tight px-6">Stutton CEVC Primary School</h1>
-                    <div className="text-xl italic text-right font-semibold">an Asset Education School</div>
+                    <div className="lg:text-xl text-lg italic">Welcome to</div>
+                    <h1 className="lg:text-5xl md:text-4xl text-2xl font-bold text-center leading-tight px-6">Stutton CEVC Primary School</h1>
+                    <div className="lg:text-xl text-lg italic text-right">an Asset Education School</div>
                 </div>
             </div>
             <div className="bg-green-300 flex flex-col lg:flex-row p-4">
